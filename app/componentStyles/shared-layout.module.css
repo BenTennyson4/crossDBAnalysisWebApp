@@ -1,0 +1,88 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 32px; /* Add horizontal padding to ensure toolbar items are fully visible */
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  margin-bottom: 30px;
+  width: 100%;            /* Full width to prevent wrapping */
+  max-width: none;
+  min-width: calc(5 * 260px + 4 * 20px + 128px); /* Ensure all items and padding are visible */
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding: 0 64px; /* Increased horizontal padding for more space from scrollbar */
+}
+
+.toolbarItem {
+  background-color: rgb(40, 115, 120);
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Stretch children to fill height */
+  justify-content: flex-start;
+  min-width: 220px;
+  box-sizing: border-box;
+  width: 260px;       /* Pick a width that fits the largest child */
+  min-width: 260px;
+  max-width: 260px;
+  height: 130px; /* Set a fixed height for all toolbar items */
+}
+
+.toolbarForm {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  height: 100%; /* Fill parent height */
+}
+
+.toolbarLabel {
+  font-size: 14px;
+  color: white;
+}
+
+.toolbarInput,
+.toolbarSelect,
+.toolbarButton {
+  width: 100%;
+  height: 30px;
+  font-size: 13px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.dataTableWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.fileInputWrapper {
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.toolbarFileInput {
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}

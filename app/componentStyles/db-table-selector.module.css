@@ -1,0 +1,36 @@
+.wrapper {
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: rgb(40, 115, 120);
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar {
+  padding: 5px;
+  width: 160px;               /* Reduced from 200px */
+  height: 26px;               /* Slightly smaller */
+  font-size: 12px;            /* Optional: slightly smaller text */
+  line-height: 1.2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.label {
+    font-size: 14px; 
+    color: black;
+}
