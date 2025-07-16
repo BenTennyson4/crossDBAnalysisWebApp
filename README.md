@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Cross Database Analysis Web App
+
+
 ## Getting Started
 
 To use this application, you need to download and install Node.js and npm. Follow this tutorial to do so [`Download and install Node.js and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
@@ -20,6 +23,19 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+The application needs to be connected to a database to function properly. You will need to set up a MySQL database and then connect it to the app. A create.sql file is provided containing the necessary SQL code to set up the database schema for the app. Ensure that MysQL is installed locally. I would suggest using [`MySQL Workbench`](https://dev.mysql.com/downloads/workbench/) as it provides a graphical interface to view the data and database schema. 
+Steps:
+1. Install MySQL and MySQL Workbench
+2. Make a new database in MySQL Workbench for the app to use:
+   a. Open MySQL Workbench and create a new database connection for a local MySQL server.
+   b. Open the database connection and in the Navigator panel, right-click on Schemas and select "Create Schema..."
+   c. Enter a name for your database (e.g., uni_verse_db) and click Apply, then Apply again in the review window.
+   d. Once created, make sure to set this schema as the default by right-clicking on it and choosing "Set as Default Schema".
+   e. Open the provided create.sql file in MySQL Workbench and execute it to create all the necessary tables and relationships. 
+3. Configure the app to connect to the database:
+   a. Open the .env.local file
+   b. Update the host, username, password, and database name to match your local MySQL setup. 
+   
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
