@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+To use this application, you need to download and install Node.js and npm. Follow this tutorial to do so [`Install Node and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
 First, run the development server:
 
 ```bash
