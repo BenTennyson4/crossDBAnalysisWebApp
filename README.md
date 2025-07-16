@@ -2,11 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-To use this application, you need to download and install Node.js and npm. Follow this tutorial to do so [`Install Node and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+To use this application, you need to download and install Node.js and npm. Follow this tutorial to do so [`Download and install Node.js and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-First, run the development server:
+Once you have installed npm, you can run a local development server in your web browser, which runs the app in your browser and allows you to see the results of changes to the code in real-time.
 
-```bash
+Run the development server:
+
+```bash or powershell or cmd
 npm run dev
 # or
 yarn dev
@@ -17,8 +19,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
