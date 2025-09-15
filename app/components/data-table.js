@@ -4,7 +4,7 @@ import styles from '../componentStyles/data-table.module.css';
 // uploaded to the database and passed from the uploadHandler API route, and the id for the 
 // type of data file being uploaded. The fileID should be an optional prop. It will be null if not passed
 // The DataTable component dynamically builds the table column headers and rows using the data array passed to it.
-export default function DataTable({ data, fileID = null }) {
+export default function DataTable({ data }) {
 
     return (
     <>

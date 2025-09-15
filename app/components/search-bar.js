@@ -2,10 +2,9 @@
 
 import { useState } from 'react';
 import axios from 'axios';
-import styles from '../componentStyles/search-bar.module.css';
 import sharedStyles from '../componentStyles/shared-layout.module.css';
 
-export default function SearchBar( { setSearchResults, tableSelection } ) {
+export default function SearchBar( { setSearchResults } ) {
 
     // State for search input
     const [searchInput, setSearchInput] = useState('');

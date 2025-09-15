@@ -1,4 +1,3 @@
-import styles from '../componentStyles/db-table-selector.module.css';
 import sharedStyles from '../componentStyles/shared-layout.module.css';
 
 export default function TableSelector({ setTableSelection }) {
