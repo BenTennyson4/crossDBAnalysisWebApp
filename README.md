@@ -51,7 +51,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Setting up the database
+### Setting up the database (Only necessary if you are installing dependencies manually not if you are using Docker)
 The application needs to be connected to a database to function properly. You will need to set up a MySQL database and then connect it to the app. A create.sql file is provided containing the necessary SQL code to set up the database schema for the app. Ensure that MysQL is installed locally. I would suggest using [`MySQL Workbench`](https://dev.mysql.com/downloads/workbench/) as it provides a graphical interface to view the data and database schema. 
 Steps:
 1. Install MySQL and MySQL Workbench
