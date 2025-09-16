@@ -9,7 +9,31 @@ Purpose: The project was developed to determine and track user system access to 
 
 ## Getting Started
 
-To use this application, you need to download and install Node.js and npm. Follow this tutorial to do so [`Download and install Node.js and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+To use this application, you can make a docker image on you computer and spin up a container from it (I would suggest trying this), or you can download the necessary dependencies and run the application. 
+
+### Using Docker
+Step 1: Install Docker
+
+Download and install Docker Desktop
+ for your operating system (Windows, macOS, or Linux).
+
+Follow the installation instructions for your platform.
+
+Verify that Docker is installed and running by opening a terminal and typing:
+
+docker --version
+
+You should see the installed Docker version as confirmation.
+
+Step 2: Build and run the Docker Image
+
+From the project root directory (where the Dockerfile is located), run:
+
+docker compose up --build
+
+### Manual Download and Installation of Requirements
+
+Or you can download and install Node.js and npm. Follow this tutorial to do so [`Download and install Node.js and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 Once you have installed npm, you can run a local development server in your web browser, which runs the app in your browser and allows you to see the results of changes to the code in real-time.
 
@@ -27,6 +51,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Setting up the database
 The application needs to be connected to a database to function properly. You will need to set up a MySQL database and then connect it to the app. A create.sql file is provided containing the necessary SQL code to set up the database schema for the app. Ensure that MysQL is installed locally. I would suggest using [`MySQL Workbench`](https://dev.mysql.com/downloads/workbench/) as it provides a graphical interface to view the data and database schema. 
 Steps:
 1. Install MySQL and MySQL Workbench
