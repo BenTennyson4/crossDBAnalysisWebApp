@@ -9,7 +9,10 @@ Purpose: The project was developed to determine and track user system access to 
 
 ## Getting Started
 
-To use this application, you need to download and install Node.js and npm. Follow this tutorial to do so [`Download and install Node.js and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+To use this application, you can make a docker image on you computer and spin up a container from it (I would suggest trying this), or you can download the necessary dependencies and run the application. 
+
+
+Or you can download and install Node.js and npm. Follow this tutorial to do so [`Download and install Node.js and npm`](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 Once you have installed npm, you can run a local development server in your web browser, which runs the app in your browser and allows you to see the results of changes to the code in real-time.
 
