@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Cross Database Analysis Web App
-This project is a full-stack web app that aggregates and analyzes data. 
+This project is a full-stack web app that aggregates and analyzes specific data gathered from separate databases. 
 
 What the app does: It allows users to upload excel files with specific column headers contianing data from a separate databases and aggregates this data in a single database. The app allows the user to search for information in the database through a search bar, and specific reports of data can be generated and exported in csv format. 
 
